@@ -1,1 +1,1 @@
-# X-O-gamed
+# X-O-game
