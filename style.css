@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  font-weight: 500;
+  background: #222;
+}
+
+.game{
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title, span{
+  width: 400px;
+  font-size: 17px;
+  text-align: center;
+  background: #f25;
+  padding: 5px 0;
+}
+
+span{
+  color: #fa0;
+}
+
+.square{
+  width: 128px;
+  height: 80px;
+  background: #f25;
+  float: left;
+  margin: 2px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.square:hover{
+  background: #000;
+}
